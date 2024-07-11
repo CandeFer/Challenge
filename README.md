@@ -1,8 +1,19 @@
-# React + Vite
+# Proyecto para Formar It - Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto desarrollado para el challenge de Formar It.
 
-Currently, two official plugins are available:
+## Cómo usar el programa
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sigue estos pasos para ejecutar el proyecto en tu máquina local:
+
+1. Descarga este proyecto.
+
+2. Abre una terminal en el directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias:
+
+   npm install
+
+3. Una vez que las dependencias estén instaladas, ejecuta el siguiente comando para iniciar el servidor de desarrollo: npm run dev
+
+4. Abre tu navegador y ve a la URL que se muestra en la terminal para ver la aplicación en funcionamiento.
+
+
