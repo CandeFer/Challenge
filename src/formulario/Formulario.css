@@ -1,0 +1,14 @@
+.oculto{
+    display: none;
+}
+
+
+.no-oculto{
+    display: block;
+}
+
+
+
+.agregar {
+    min-width: 40px;
+}
