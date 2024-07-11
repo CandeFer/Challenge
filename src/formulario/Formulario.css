@@ -4,7 +4,9 @@
 
 
 .no-oculto{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
 }
 
 

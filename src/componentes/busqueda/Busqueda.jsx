@@ -33,9 +33,8 @@ const Busqueda = () => {
             <div className="resultados">
                 {resultados.length > 0 ? (
                     resultados.map((usuario) => (
-                        <div key={usuario.id}>
-                            <h2>{usuario.name}</h2>
-                            <p>Username: {usuario.username}</p>
+                        <div className='busUsuario' key={usuario.id}>
+                            <h2>{usuario.name} {usuario.username}</h2>
                             <p>Email: {usuario.email}</p>
                             <p>Ciudad: {usuario.address.city}</p>
                             <p>Teléfono: {usuario.phone}</p>
@@ -43,7 +42,7 @@ const Busqueda = () => {
                         </div>
                     ))
                 ) : (
-                    <p>No se encontraron resultados</p>
+                    <p>Respetar las mayúsculas y minúsculas.</p>
                 )}
             </div>
         </div>

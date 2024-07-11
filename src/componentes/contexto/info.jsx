@@ -11,9 +11,18 @@ export const InfoProvider = ({ children }) => {
   };
 
   const search = (letras) => {
-
-    return info.filter(usuario => usuario.includes(letras));
-
+    if (!letras) {
+      return [];
+    }
+    return info.filter(
+      (usuario) =>
+        usuario.name.includes(letras) ||
+        usuario.username.includes(letras) ||
+        usuario.email.includes(letras) ||
+        usuario.address.city.includes(letras) ||
+        usuario.phone.includes(letras) ||
+        usuario.company.name.includes(letras)
+    );
   }
 
 

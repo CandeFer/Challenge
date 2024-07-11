@@ -1,3 +1,20 @@
 .busqueda{
     margin: 0 auto;
 }
+
+.busUsuario{
+    margin: 20px;
+    background-color: #000000;
+    width: 260px;
+    border-radius: 10px;
+    border: solid 2px #F5F403;
+    padding: 20px;
+
+    h2{
+        background-color: #F5F403;
+        color: #000000;
+        font-size: 20px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+}
